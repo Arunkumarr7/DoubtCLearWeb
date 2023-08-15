@@ -219,7 +219,7 @@ e.printStackTrace();
 <section id="1">
 <div class="w3-row-padding  w3-dark-grey w3-padding-24 w3-container">
 
-	<center><h2>have any doubt ? Feel free to reach us</h2></center>
+	<center><h2><%=session.getAttribute("name")%> &nbsp;&nbsp;&nbsp;&nbsp; have any doubt ? Feel free to reach us</h2></center>
 	<div class="w3-content">
     
     <div class="w3-third" >
