@@ -10,6 +10,7 @@
 <head>
 <title>Doubt Clear</title>
 <meta charset="UTF-8">
+<link rel="shortcut icon" type="x-icon" href="DClear-tab.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -65,6 +66,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="#1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
     <a href="logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Logout</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><%=session.getAttribute("name") %></a>
+  	<a href="index.html" ><img align="right" src="DClear-logo.png" height="77" width="277"></a>
   </div>
 </nav>
   <!-- Navbar on small screens -->
@@ -73,6 +75,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="#1" class="w3-bar-item w3-button w3-padding-large">Contact</a>
     <a href="logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Logout</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><%=session.getAttribute("name") %></a>
+  	<a href="index.html" ><img align="right" src="DClear-logo.png" height="77" width="277"></a>
   </div>
 </div>
 

@@ -17,6 +17,7 @@
 <head>
 <title>Doubt Clear</title>
 <meta charset="UTF-8">
+<link rel="shortcut icon" type="x-icon" href="DClear-tab.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -76,6 +77,7 @@ tr#element:hover{
     <a href="#1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
     <a href="logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Logout</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><%=session.getAttribute("name") %></a>
+	<a href="index.html" ><img align="right" src="DClear-logo.png" height="77" width="277"></a>
   </div>
 </nav>
   <!-- Navbar on small screens -->
@@ -84,6 +86,7 @@ tr#element:hover{
     <a href="#1" class="w3-bar-item w3-button w3-padding-large">Contact</a>
     <a href="logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Logout</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><%=session.getAttribute("name") %></a>
+	<a href="index.html" ><img align="right" src="DClear-logo.png" height="77" width="277"></a>
   </div>
 </div>
 
@@ -124,12 +127,19 @@ tr#element:hover{
         <label for="class" class="w3-large">Class</label>
         <select id="name" name="tclasses" >
         <option value="">Please Choose...</option>
-        <option value="10th">10th</option>
- <option value="11th">11th</option>
- <option value="12th">12th</option>
- <option value="B.tech">B.tech</option>
- <option value="M.tech">M.tech</option>
- <option value="BSC">BSC</option>
+         <option value="10th">10th</option>
+ 		<option value="11th">11th</option>
+ 		<option value="12th">12th</option>
+ 		<option value="B.tech">B.tech</option>
+ 		<option value="M.tech">M.tech</option>
+		<option value="BSC">BSC</option>
+ 		<option value="BCOM">BCOM</option>
+ 		<option value="Arts">Arts</option>
+ 		<option value="COMMERCE">COMMERCE</option>
+		<option value="SCIENCE">SCIENCE</option>
+ 		<option value="Phd">Phd</option>
+ 		<option value="govt">govt exams</option>
+ 		<option value="Others">Others</option>
         </select></br>
         
         

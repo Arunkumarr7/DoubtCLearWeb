@@ -5,6 +5,9 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta charset="UTF-8">
+<link rel="shortcut icon" type="x-icon" href="DClear-tab.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>studentlogin</title>
   <style>
   * {
@@ -133,7 +136,7 @@ body {
       <div class="input-field">
         <input type="password" name="password" placeholder="Password" autocomplete="new-password">
       </div>
-      <a href="#" class="link">Forgot Your Password?</a></br>
+      <a href="studentForgotPassword.jsp" class="link">Forgot Your Password?</a></br>
       <h4 style="font-weight: 700;">Don't have account yet!? 
     <a href="studentRegistration.jsp" class="link">Create Account</a>
     </h4>

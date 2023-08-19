@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" type="x-icon" href="DClear-tab.png">
 <title>DClear</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="css/bootstrap.css"></link>
@@ -88,7 +89,7 @@ required>
  <label for="country" class="form-label">Country</label>
  <select class="form-select" name="country" required>
  <option value="">Choose...</option>
- <option>India</option>
+ <option value="India">India</option>
  </select>
  </div>
  
@@ -96,7 +97,14 @@ required>
  <label for="state" class="form-label">State</label>
  <select class="form-select" name="state" required>
  <option value="">Choose...</option>
- <option>Karnataka</option>
+ <option value="Karnataka">Karnataka</option>
+ <option value="AndraPradesh">Andra Pradesh</option>
+ <option value="Kerala">Kerala</option>
+ <option value="Tamilnadu">Tamilnadu</option>
+ <option value="Telengana">Telangana</option>
+ <option value="Maharastra">Maharastra</option>
+ <option value="Karnataka">Rajasthan</option>
+ <option value="other">other</option>
  </select>
  </div>
  
@@ -154,6 +162,7 @@ Completed
  <option value="M.tech">M.tech</option>
  <option value="BSC">BSC</option>
  <option value="govt">Phd</option>
+  <option value="other">other</option>
  </select>
  </div>
  
@@ -212,12 +221,17 @@ no
  <option value="B.tech">B.tech</option>
  <option value="M.tech">M.tech</option>
  <option value="BSC">BSC</option>
- <option value="phd">Phd</option>
+ <option value="BCOM">BCOM</option>
+ <option value="Arts">Arts</option>
+ <option value="COMMERCE">COMMERCE</option>
+ <option value="SCIENCE">SCIENCE</option>
+ <option value="Phd">Phd</option>
  <option value="govt">govt exams</option>
+ <option value="Other">Other</option>
  </select>
  </div>
  <div class="form-group">
- <label for="textarea" class="form-label">Why you want to became a tutor</label>
+ <label for="textarea" class="form-label">Why you want to became a tutor?</label>
  <textarea class="form-control" name="about" rows="8"></textarea>
  </div>
  

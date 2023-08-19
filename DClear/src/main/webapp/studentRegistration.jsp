@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" type="x-icon" href="DClear-tab.png">
 <title>DClear</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="css/bootstrap.css"></link>
@@ -96,8 +97,16 @@ required>
  <label for="state" class="form-label">State</label>
  <select class="form-select" name="state" required>
  <option value="">Choose...</option>
- <option>Karnataka</option>
+  <option value="Karnataka">Karnataka</option>
+ <option value="AndraPradesh">Andra Pradesh</option>
+ <option value="Kerala">Kerala</option>
+ <option value="Tamilnadu">Tamilnadu</option>
+ <option value="Telengana">Telangana</option>
+ <option value="Maharastra">Maharastra</option>
+ <option value="Karnataka">Rajasthan</option>
+ <option value="other">other</option>
  </select>
+
  </div>
  
  <div class="col-md-3">
@@ -129,13 +138,11 @@ id="flexRadioDefault1">
  <option value="B.tech">B.tech</option>
  <option value="M.tech">M.tech</option>
  <option value="BSC">BSC</option>
+ <option value="other">other</option>
  
  </select>
  </div>
- <div class="form-group">
- <label for="textarea" class="form-label">tell me about yourself</label>
- <textarea class="form-control" name="about" rows="8"></textarea>
- </div>
+ 
  
  <div class="col-sm-6">
  <label for="idcard" class="form-label">Upload your Id card</label>
