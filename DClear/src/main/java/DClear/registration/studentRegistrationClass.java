@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.sql.*;
 
 
-@WebServlet("/register")
+@WebServlet("/studentRegistrationClass")
 public class studentRegistrationClass extends HttpServlet {
 	private static final long serialVersionUID = 1L;
    	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
