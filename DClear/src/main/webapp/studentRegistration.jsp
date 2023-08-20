@@ -142,15 +142,9 @@ id="flexRadioDefault1">
  
  </select>
  </div>
- 
- 
- <div class="col-sm-6">
- <label for="idcard" class="form-label">Upload your Id card</label>
- <input type="file" class="form-control" name="idcard" required>
- </div>
    
- <hr class="my-4">
- <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+
+ <center><button class="w-50 btn btn-primary btn-lg" type="submit">Submit</button></center>
  </form>
  </div>
  </div>
