@@ -57,10 +57,10 @@
  <div class="login-form">
  
  <form action="tutorRegistrationClass" method="post">
-  &nbsp;&nbsp;<h2 style=style="font-size:34px">
+  &nbsp;&nbsp;<h2 style="font-size:34px">
     <a href="index.html" class="link">Go Back</a>
     </h2>
- <center><h1>Tutor registration form</h1></center>
+ <<h1>Tutor registration form</h1>
  <p class="lead"><b><i>Please Enter You are Correct Details</i></b></p>
  <div class="row g-3">
  <div class="col-sm-6">
@@ -242,6 +242,7 @@ no
    
  <hr class="my-4">
  <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+</div>
  </form>
  </div>
  </div>
