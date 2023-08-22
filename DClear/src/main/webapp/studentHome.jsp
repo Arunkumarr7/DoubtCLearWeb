@@ -85,7 +85,7 @@ tr#element:hover{
     <a href="#2" class="w3-bar-item w3-button w3-padding-large">About</a>
     <a href="#1" class="w3-bar-item w3-button w3-padding-large">Contact</a>
     <a href="logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Logout</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><%=session.getAttribute("name") %></a>
+    <a href="" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><%=session.getAttribute("name") %></a>
 	<a href="index.html" ><img align="right" src="DClear-logo.png" height="77" width="277"></a>
   </div>
 </div>
