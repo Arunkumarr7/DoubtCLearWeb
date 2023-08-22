@@ -31,10 +31,6 @@
   text-align: center;
 }
  
- </style>
-</head>
-<body class="bg-danger" >
-<style>
  .container-sm {
  max-width: 700px;
  }
@@ -47,6 +43,9 @@
   margin-top: 20px;
 }
  </style>
+</head>
+<body class="bg-danger" >
+
  <div class="container-sm">
  <main>
  <div class="py-5 text-center">
@@ -57,10 +56,10 @@
  <div class="login-form">
  
  <form action="studentRegistrationClass" method="post">
-  &nbsp;&nbsp;&nbsp;&nbsp;<h2 style=style="font-size:34px">
+  &nbsp;&nbsp;&nbsp;&nbsp;<h2 style="font-size:34px">
     <a href="index.html" class="link">Go Back</a>
     </h2>
- <center><h1>Student registration form</h1></center>
+ <h1>Student registration form</h1>
  <p class="lead"><b><i>Please Enter You are Correct Details</i></b></p>
  <div class="row g-3">
  <div class="col-sm-6">
@@ -143,8 +142,8 @@ id="flexRadioDefault1">
  </select>
  </div>
    
-
- <center><button class="w-50 btn btn-primary btn-lg" type="submit">Submit</button></center>
+<button class="w-50 btn btn-primary btn-lg" type="submit">Submit</button>
+</div>
  </form>
  </div>
  </div>

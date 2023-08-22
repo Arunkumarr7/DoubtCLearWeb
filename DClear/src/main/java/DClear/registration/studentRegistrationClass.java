@@ -14,7 +14,12 @@ import java.sql.*;
 @WebServlet("/studentRegistrationClass")
 public class studentRegistrationClass extends HttpServlet {
 	
-   	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String firstname=request.getParameter("firstname");
 		String lastname=request.getParameter("lastname");
 		String email=request.getParameter("email");
