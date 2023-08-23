@@ -14,9 +14,6 @@ import java.sql.*;
 @WebServlet("/studentRegistrationClass")
 public class studentRegistrationClass extends HttpServlet {
 	
-   	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -46,15 +43,16 @@ public class studentRegistrationClass extends HttpServlet {
 			ps.setString(9, coursename);
 			int rowCount=ps.executeUpdate(); 
 			
-			dispatcher =request.getRequestDispatcher("studentlogin.jsp");
+			
 			if(rowCount>0)
 			{
 				request.setAttribute("status", "success");
-				
+				dispatcher =request.getRequestDispatcher("studentlogin.jsp");
 			}
 			else
 			{
 				request.setAttribute("status", "failed");
+				dispatcher =request.getRequestDispatcher("studentRegistration.jsp");
 			}
 			dispatcher.forward(request, response);
 		}catch(Exception e)

@@ -55,7 +55,7 @@
  <div class="my-4">
  <div class="login-form">
  
- <form action="studentRegistrationjsp.jsp" method="post">
+ <form action="studentRegistrationClass" method="post">
   &nbsp;&nbsp;&nbsp;&nbsp;<h2 style="font-size:34px">
     <a href="index.html" class="link">Go Back</a>
     </h2>

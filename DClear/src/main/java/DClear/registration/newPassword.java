@@ -23,6 +23,7 @@ public class newPassword extends HttpServlet {
 			throws ServletException, IOException {
 
 		HttpSession session = request.getSession();
+		
 		String newPassword = request.getParameter("password");
 		String confPassword = request.getParameter("confPassword");
 		RequestDispatcher dispatcher = null;
@@ -41,7 +42,7 @@ public class newPassword extends HttpServlet {
 					dispatcher = request.getRequestDispatcher("tutorlogin.jsp");
 				} else {
 					request.setAttribute("status", "resetFailed");
-					dispatcher = request.getRequestDispatcher("forgotPassword.jsp");
+					dispatcher = request.getRequestDispatcher("newPassword.jsp");
 				}
 				dispatcher.forward(request, response);
 			} catch (Exception e) {

@@ -17,6 +17,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/tutorRegistrationClass")
 public class tutorRegistrationClass extends HttpServlet {
   
+	
+	private static final long serialVersionUID = 1L;
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String firstname=request.getParameter("firstname");
 		String lastname=request.getParameter("lastname");
@@ -33,7 +36,7 @@ public class tutorRegistrationClass extends HttpServlet {
 		String experience=request.getParameter("experience");
 		String language=request.getParameter("language");
 		String tclasses=request.getParameter("tclasses");
-RequestDispatcher dispatcher=null;
+		RequestDispatcher dispatcher=null;
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -60,15 +63,16 @@ RequestDispatcher dispatcher=null;
 			out.println("<script type=\"text/javascript\">");
 			out.println("alert('successfully registerd');");
 			out.println("</script>");
-			dispatcher =request.getRequestDispatcher("tutorlogin.jsp");
+			
 			if(rowCount>0)
 			{
 				request.setAttribute("status", "success");
-				
+				dispatcher =request.getRequestDispatcher("tutorlogin.jsp");
 			}
 			else
 			{
 				request.setAttribute("status", "failed");
+				dispatcher =request.getRequestDispatcher("tutorRegistration.jsp");
 			}
 			dispatcher.forward(request, response);
 		}catch(Exception e)
