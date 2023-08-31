@@ -66,7 +66,7 @@ tr#element:hover{
 
 </style>
 </head>
-<>
+<body>
 	
 <nav>
 <div class="w3-top">
@@ -153,7 +153,7 @@ tr#element:hover{
     </div>
 </section>
 <!-- Second Grid -->
-
+<section>
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
@@ -229,7 +229,7 @@ e.printStackTrace();
 <section id="1">
 <div class="w3-row-padding  w3-dark-grey w3-padding-24 w3-container">
 
-	<center><h2><%=session.getAttribute("name")%> &nbsp;&nbsp;&nbsp;&nbsp; have any doubt ? Feel free to reach us</h2></center>
+	<h2><%=session.getAttribute("name")%> &nbsp;&nbsp;&nbsp;&nbsp; have any doubt ? Feel free to reach us</h2>
 	<div class="w3-content">
     
     <div class="w3-third" >
@@ -263,8 +263,8 @@ e.printStackTrace();
 			 <th class="w3-large"><a href="#">Rajankunte Yelahanka</br>Bengaluru Karnataka-560064</a></th>
 		</tr>
 		<tr>
-			<th><a href="mailto:arunr90085@gmail.com?subject = Feedback&body = Message"><i class="fa fa-envelope-o w3-padding-24 w3-text-red" style="font-size:50px;color:red"></i></a></th>
-			<th class="w3-large"><a href="mailto:arunr90085@gmail.com?subject = Feedback&body = Message">E-mail</br>arunr90085@gmail.com</a></th>
+			<th><a href="mailto:doubtclearweb@gmail.com?subject = Feedback&body = Message"><i class="fa fa-envelope-o w3-padding-24 w3-text-red" style="font-size:50px;color:red"></i></a></th>
+			<th class="w3-large"><a href="mailto:arunr90085@gmail.com?subject = Feedback&body = Message">Gmail</br>doubtclearweb@gmail.com</a></th>
 		</tr>	
 			   
 	</table>    
