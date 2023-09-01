@@ -34,7 +34,7 @@ public class studentRegistrationClass extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://dclear.c6oihiaxexbs.eu-north-1.rds.amazonaws.com:3306/dclear","arunkumar","Arunr!90085");
+			Connection con=DriverManager.getConnection("jdbc:mysql://u2gtq3inxc4d5koi:2GNmScJuCCs9TcM29aKZ@bc0zml7j9zqc8y14gaeg-mysql.services.clever-cloud.com:3306/bc0zml7j9zqc8y14gaeg","u2gtq3inxc4d5koi","2GNmScJuCCs9TcM29aKZ");
 			PreparedStatement ps=con.prepareStatement("insert into student_user values(?,?,?,?,?,?,?,?,?)");
 			ps.setString(1, firstname);
 			ps.setString(2, lastname);
