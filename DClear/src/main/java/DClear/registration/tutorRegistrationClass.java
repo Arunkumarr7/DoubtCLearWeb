@@ -40,7 +40,7 @@ public class tutorRegistrationClass extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://dclear.c6oihiaxexbs.eu-north-1.rds.amazonaws.com/dclear","arunkumar","Arunr!90085");
+			Connection con=DriverManager.getConnection("jdbc:mysql://dclear.c6oihiaxexbs.eu-north-1.rds.amazonaws.com:3306/dclear","arunkumar","Arunr!90085");
 			PreparedStatement ps=con.prepareStatement("insert into tutor_user values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 			ps.setString(1, firstname);
 			ps.setString(2, lastname);
