@@ -69,7 +69,7 @@ body {
 							system will send you an OTP to your email</li>
 						<li><span class="text-primary text-medium">3. </span>Enter the OTP on the 
 						next page</li>
-						
+						<li><span class="text-primary text-medium">4. </span>Reset your password</li>
 					</ol>
 				</div>
 				

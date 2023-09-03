@@ -142,7 +142,8 @@ tr#element:hover{
  		<option value="Others">Others</option>
         </select></br>
         
-        
+        <label for="photo" class="w3-large">Upload captured photo.</label></br>
+        <input type="file" name="photo"  style="height:50px" size="25"></input></br>
         
         <label for="message" class="w3-large">Mention Your topics which you have doubt.</label></br>
         <textarea id="message" name="message" placeholder="Type your topics.." style="height:100px" size="25"></textarea></br>
@@ -170,7 +171,7 @@ tr#element:hover{
   border-bottom: 2px solid #ddd; color:">name</td>
 <td style="padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;">language</td>
+  border-bottom: 1px solid #ddd;"> speaking language</td>
 <td style="padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;">email</td>
@@ -229,21 +230,21 @@ e.printStackTrace();
 <section id="1">
 <div class="w3-row-padding  w3-dark-grey w3-padding-24 w3-container">
 
-	<h2><%=session.getAttribute("name")%> &nbsp;&nbsp;&nbsp;&nbsp; have any doubt ? Feel free to reach us</h2>
+	<center><h2><%=session.getAttribute("name")%> &nbsp; have any doubt ? Feel free to reach us</h2></center>
 	<div class="w3-content">
     
     <div class="w3-third" >
  	
    
       <form action="studentFeedback" method="POST"> 
-        <label for="fname" class="w3-large">Name</label></br>
+        <label for="fname" class="w3-large">Your good Name</label></br>
         <input type="text" id="name" name="name" placeholder="Type your name.." size="25"></br>
         
-        <label for="email" class="w3-large">E-mail Address</label></br>
-        <input type="email" id="mail" name="email" placeholder="Type your e-mail.." size="25"></br>
+        <label for="email" class="w3-large">Gmail Address</label></br>
+        <input type="email" id="mail" name="email" placeholder="Type your Gmail.." size="25"></br>
         
-        <label for="message" class="w3-large">Message</label></br>
-        <textarea id="message" name="message" placeholder="Type your message.." style="height:100px" size="25"></textarea></br>
+        <label for="message" class="w3-large">feedback Message</label></br>
+        <textarea id="message" name="message" placeholder="Type your feedback.." style="height:100px" size="25"></textarea></br>                                                                                             
         <input type="submit" value="Send" class="w3-red">
       </form>
     
@@ -274,8 +275,8 @@ e.printStackTrace();
 </section>
 <!-- Footer -->
 <footer class="w3-container w3-padding-24 w3-center w3-opacity">  
-  <div class="w3-xlarge w3-padding-32">
-  <h1>follow us on</h1>
+  <div class="w3-xlarge w3-padding-18">
+  <h1>Please support us on</h1>
 	<a href="https://github.com/Arunkumarr7"><i class="fa fa-github w3-hover-opacity" style="font-size:50px" title="github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.instagram.com/arun__ramsagar/"><i class="fa fa-instagram w3-hover-opacity" style="font-size:50px" title="instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.facebook.com/arunkumar.yash.581/"><i class="fa fa-facebook-official w3-hover-opacity" style="font-size:50px" title="facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;

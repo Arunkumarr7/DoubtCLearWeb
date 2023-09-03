@@ -38,15 +38,13 @@
   display: inline-block;
   margin-top: 20px;
 }
- 
- </style>
-</head>
-<body class="bg-danger" >
-<style>
  .container-sm {
  max-width: 700px;
  }
  </style>
+</head>
+<body class="bg-danger" >
+
  <div class="container-sm">
  <main>
  <div class="py-5 text-center">
@@ -60,7 +58,7 @@
   &nbsp;&nbsp;<h2 style="font-size:34px">
     <a href="index.html" class="link">Go Back</a>
     </h2>
- <<h1>Tutor registration form</h1>
+ <h1>Tutor registration form</h1>
  <p class="lead"><b><i>Please Enter You are Correct Details</i></b></p>
  <div class="row g-3">
  <div class="col-sm-6">
@@ -236,12 +234,12 @@ no
  </div>
  
  <div class="col-sm-6">
- <label for="idcard" class="form-label">Upload your CV</label>
+ <label for="cv" class="form-label">Upload your CV</label>
  <input type="file" class="form-control" name="idcard" required>
  </div>
    
  <hr class="my-4">
- <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+ <center><button class="w-50 btn btn-primary btn-lg" type="submit">Submit</button></center>
 </div>
  </form>
  </div>
